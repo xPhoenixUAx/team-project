@@ -8,7 +8,7 @@
     
     
     <script type="module" crossorigin src="/team-project/commonHelpers3.js"></script>
-    <link rel="stylesheet" href="/team-project/assets/index-2477bddb.css">
+    <link rel="stylesheet" href="/team-project/assets/index-e1acd9bb.css">
   </head>
   <body>
     <section class="header">
@@ -21,19 +21,19 @@
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link">Game Description</a>
+          <a href="#description-block" class="nav-link">Game Description</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Features</a>
+          <a href="#features" class="nav-link">Features</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">How to Play</a>
+          <a href="#howtoplay" class="nav-link">How to Play</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">FAQ</a>
+          <a href="#faq" class="nav-link">FAQ</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Gallery</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
         </li>
       </ul>
     </nav>
@@ -70,50 +70,54 @@
 </section>
 
     <section class="hero-sec">
+  <div class="container">
   <div class="hero-sec-items">
-    <img class="hero-image" src="/team-project/assets/Logo-hero-ed27928d.png" alt="hero-logo" />
-    <img
-      class="hero-text"
-      src="/team-project/assets/hero-text-14501036.png"
-      alt="Discover,Merge,and_Build_Your_Cove!"
-      width="431"
-      height="96"
-    />
+    <div class="hero-image">
+    <picture>
+      <source media="(max-width: 320px)" srcset="/team-project/assets/Logo-mob-967ae0f6.png ">
+      <source media="(min-width: 1200px)" srcset="/team-project/assets/Logo-hero-ed27928d.png ">
+      <img src="/team-project/assets/Logo-hero-ed27928d.png" alt="Image 4">
+    </picture>
+    </div>
+    <div class="hero-text">
+      <picture>
+        <source media="(max-width: 320px)" srcset="/team-project/assets/hero-text-a68e298a.png ">
+        <source media="(min-width: 1200px)" srcset="/team-project/assets/hero-text-14501036.png ">
+        <img src="/team-project/assets/hero-text-14501036.png" alt="herotext">
+      </picture>
+    </div>
     <div class="download">
-      <img
+      <img class="img-download"
         src="/team-project/assets/download_vector-152872ee.png"
         alt="download-now"
-        width="346"
-        height="100"
       />
       <a
         href="https://play.google.com/store/apps/details?id=com.newmerges.mergecove"
         target="_blank"
       >
-        <img
+        <img class="img-appstore"
           src="/team-project/assets/app_store-92d139d9.svg"
-          alt="app-store"
-          width="213"
-          height="63"
-        />
+          alt="app-store"/>
       </a>
     </div>
   </div>
 </section>
-<section class="description">
+<section class="description" id="description-block">
   <div class="descr-block">
-    <img
-      src="/team-project/assets/title_p2-2d73f6a2.png"
-      alt="descript-logo"
-      width="1080"
-      height="113"
-    />
-    <img
-      src="/team-project/assets/Game Description_info-8e48a5f3.png"
-      alt="game-descript"
-      width="1080"
-      height="346"
-    />
+    <div class="-banner" style="position: relative; text-align: center;">
+    <picture class="flag-blue">
+        <source media="(max-width: 1199px)" srcset="/team-project/assets/vector-1f6ef78d.png ">
+        <source media="(min-width: 1200px)" srcset="/team-project/assets/blue-da6adc95.png ">
+        <img src="/team-project/assets/descr-flag-2f273bad.png" alt="blueflag">
+        <div class="descr-text">Game Description</div>
+        </div>
+      </picture>
+      <picture class="descr-game">
+        <source media="(max-width: 1199px)" srcset="/team-project/assets/game-descr-mob-e25b88b6.png ">
+        <source media="(min-width: 1200px)" srcset="/team-project/assets/game-descr-8e48a5f3.png ">
+        <img src="/team-project/assets/game-descr-8e48a5f3.png" alt="game-descript"/>
+    </picture>
+  </div>
   </div>
 </section>
 
